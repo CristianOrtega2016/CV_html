@@ -1,0 +1,96 @@
+body {
+	background-color: hsl(153, 10%, 50%);
+}
+.container {
+	margin: 2px;
+	display: flex;
+	flex-direction: column;
+}
+
+.container h1 {
+	text-align: center;
+	background-color: lightgray;
+	border:2px brown solid;
+	color: brown;
+}
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: lightgray;
+	border:2px brown solid;
+	color: hsl(13, 47%, 35%);
+
+}
+
+.personal-information{
+  font-size:18px;
+}
+
+ .header ul{
+   list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: hsl(42, 20%, 30%);
+
+}
+
+.container h2 {
+	text-align: center;
+	background-color: lightgray;
+	color: brown;
+	border:2px brown solid;
+}
+
+.education {
+	color: hsl(13, 47%, 35%);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: lightgray;
+	border:2px brown solid;
+
+}
+
+.education-details {
+	text-align: left;
+	padding: 5px;
+	margin: 5px;
+	max-width: 300px;
+}
+
+.technical-information {
+	color: hsl(13, 47%, 35%);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: lightgray;
+	border:2px brown solid;
+
+}
+
+.technical-information-details {
+	text-align: justify;
+	padding: 5px;
+	margin: 5px;
+	max-width: 300px;
+}
+
+
+
+.question {
+	color: hsl(13, 47%, 35%);
+	background-color: lightgray;
+	border:2px brown solid;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.paragraph{
+	max-width: 500px;
+}
